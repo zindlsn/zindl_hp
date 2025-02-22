@@ -7,5 +7,6 @@ import sitemap from '@astrojs/sitemap';
 export default defineConfig({
 	site: 'https://zindlsn.github.io',
 	base:'/zindl_hp',
+	output: 'static',
 	integrations: [mdx(), sitemap()],
 });
